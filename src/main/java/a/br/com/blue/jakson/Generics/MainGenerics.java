@@ -1,4 +1,4 @@
-package br.com.blue.jakson.Generics;
+package a.br.com.blue.jakson.Generics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class MainGenerics {
 //			System.out.println(s);
 //		}
 		
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<>();    /*<-- isso é generics*/
 
 		list.add("abc");
 		list.add("def");
