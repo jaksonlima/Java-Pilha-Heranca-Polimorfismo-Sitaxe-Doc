@@ -17,6 +17,9 @@ public class Main {
 		List<Cafe> Cafe = new ArrayList<Cafe>();
 		Cafe.add(new Cafe());
 		
+		List<Object> obj = new ArrayList<Object>();
+		obj.add(new Cafe());
+		
 		prepararBedida(bebida);
 		
 		prepararBedida(cha);
@@ -24,6 +27,10 @@ public class Main {
 		prepararBedida(Cafe);
 
 		prepararBedida2(cha);
+		
+		prepararBedida2(obj);
+		
+		prepararBedidaObj3(obj);
 
 	}
 
@@ -48,7 +55,7 @@ public class Main {
 		}
 	}
 
-	private static void prepararBedida3(List<?> obj) {
+	private static void prepararBedidaObj3(List<?> obj) {
 		for (Object b : obj) {
 			Chá cha = (Chá) b;
 			cha.preparar();
