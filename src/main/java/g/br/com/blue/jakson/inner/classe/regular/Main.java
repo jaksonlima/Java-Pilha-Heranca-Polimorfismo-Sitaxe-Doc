@@ -1,4 +1,4 @@
-package g.br.com.blue.jakson.inner.classe.gerular;
+package g.br.com.blue.jakson.inner.classe.regular;
 
 public class Main {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package f.br.com.blue.jakson.reflection.API;
+package g.br.com.blue.jakson.inner.classe.regular;
 
 public class MyOuter {
 
