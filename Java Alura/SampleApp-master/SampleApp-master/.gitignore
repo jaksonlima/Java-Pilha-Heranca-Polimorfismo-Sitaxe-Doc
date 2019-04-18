@@ -1,0 +1,8 @@
+/bin/
+.classpath
+.project
+chime.mp3
+test.db
+target/
+/.settings/
+.*.swp
