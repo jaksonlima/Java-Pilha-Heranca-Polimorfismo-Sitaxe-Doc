@@ -1,4 +1,4 @@
-package k.br.com.blue.jakson.lambda.list.collections.API;
+package l.br.com.blue.jakson.lambda.list.collections.API;
 
 import java.util.ArrayList;
 import java.util.Arrays;
