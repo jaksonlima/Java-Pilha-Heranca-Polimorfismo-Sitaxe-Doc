@@ -14,7 +14,8 @@ public class MainLambda {
 
 		};
 
-		processor.accept("Java");
+		processor.accept("Java aqui");
+		
 		
 		System.out.println("---------------------------");
 		
@@ -31,6 +32,7 @@ public class MainLambda {
 		List<Integer> list = Arrays.asList(3, 2, 4, 5, 1);
 		
 		list.sort((a, b) -> a.compareTo(b));
+		
 		
 		list.forEach(System.out::println);
 
