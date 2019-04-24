@@ -12,8 +12,10 @@ public class Main {
 		for (int i = 0; i <= 5; i++) {
 
 			Task t = new Task(i);
+			Task t0 = new Task(i);
 
 			e.execute(t);
+			e.execute(t0);
 		}
 
 		e.shutdown();
