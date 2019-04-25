@@ -28,11 +28,12 @@ public class Info {
 		try {
 			info = "";
 
-			for (int i = 0; i < 10; i++) {
+			for (int i = 0; i < 5 ; i++) {
 				char c = (char) (random.nextInt(26) + 65);
 				info += c;
+				System.out.println("Escrevendo: " + i + " Aguarde...");
 				try {
-					Thread.sleep(30);
+					Thread.sleep(100);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
