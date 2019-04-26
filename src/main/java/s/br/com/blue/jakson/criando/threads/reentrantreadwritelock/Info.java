@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 public class Info {
 
 	private String info = "AAAAAAAAAA"; // 10
-	private Random random = new Random();
+	private Random random = new Random(); // Aleatorio
 
 	private ReentrantReadWriteLock rwl = new ReentrantReadWriteLock();
 	private ReadLock rl = rwl.readLock();

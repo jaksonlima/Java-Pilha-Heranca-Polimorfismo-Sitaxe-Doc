@@ -8,8 +8,8 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 
 		Info info = new Info();
-		int numLeitores = 2;
-		int numEscritores = 2;
+		int numLeitores = 3;
+		int numEscritores = 3;
 
 		ExecutorService e = Executors.newFixedThreadPool(numLeitores + numEscritores);
 

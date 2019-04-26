@@ -13,7 +13,7 @@ public class Leitor implements Runnable {
 	@Override
 	public void run() {
 		try {
-			for(int i = 0; i < 10; i++) {
+			for(int i = 0; i < 5; i++) {
 				String text = info.getInfo();
 				System.out.println(nome + " => leu: " + text);
 				Thread.sleep(100);
