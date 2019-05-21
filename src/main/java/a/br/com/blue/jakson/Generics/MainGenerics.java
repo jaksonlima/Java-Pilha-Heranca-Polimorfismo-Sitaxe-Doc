@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainGenerics {
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
 //		List list = new ArrayList();
 //
@@ -17,16 +18,16 @@ public class MainGenerics {
 //			String s = (String) obj;
 //			System.out.println(s);
 //		}
-		
-		List<String> list = new ArrayList<>();    /*<-- isso é generics*/
+        List<String> list = new ArrayList<>();
+        /*<-- isso ï¿½ generics*/
 
-		list.add("abc");
-		list.add("def");
-		list.add("gh1");
+        list.add("abc");
+        list.add("def");
+        list.add("gh1");
 
-		for (String obj : list) {
-			System.out.println(obj);
-		}
+        for (String obj : list) {
+            System.out.println(obj);
+        }
 
-	}
+    }
 }
