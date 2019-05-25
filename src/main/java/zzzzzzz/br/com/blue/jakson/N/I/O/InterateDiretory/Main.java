@@ -5,10 +5,32 @@
  */
 package zzzzzzz.br.com.blue.jakson.N.I.O.InterateDiretory;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 /**
  *
  * @author jakson
  */
 public class Main {
-    
+
+	public static void main(String[] args) throws IOException {
+		
+		Path dir = Paths.get("C:\\Temp\\Curso");
+		
+//		try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir, "*.tx?")) {
+//			for (Path path : stream) {
+//				System.out.println(path);
+//			}
+//		}
+		
+//		try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir, p -> Files.size(p) > 100)) {
+//			for (Path path : stream) {
+//				System.out.println(path);
+//			}
+//		}
+	
+		SearchFile searchFile = new SearchFile("txt");
+		Files.walkFileTree(dir, searchFile);
+	}
 }
